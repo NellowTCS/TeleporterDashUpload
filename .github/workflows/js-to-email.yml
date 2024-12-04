@@ -26,7 +26,7 @@ jobs:
 
     - name: Process Emails for JS Attachments
       env:
-        EMAIL_SERVER: "imap.gmail.com"
+        EMAIL_SERVER: "outlook.office365.com"
         EMAIL_USER: "teleporterdash@gmail.com"
         EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
       run: |
