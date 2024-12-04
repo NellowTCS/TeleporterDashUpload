@@ -26,8 +26,8 @@ jobs:
 
     - name: Process Emails for JS Attachments
       env:
-        EMAIL_SERVER: ${{ secrets.EMAIL_SERVER }}
-        EMAIL_USER: ${{ secrets.EMAIL_USER }}
+        EMAIL_SERVER: "imap.gmail.com"
+        EMAIL_USER: "teleporterdash@gmail.com"
         EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
       run: |
         python process_emails.py
